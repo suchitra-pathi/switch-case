@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+int choice =0;
+
+  printf("Food item : \n1. Burger,Rs.129\n2. French fries,Rs.99\n3. Pizza,Rs.239\n4. Sandwich,Rs.149\n5. Pasta,Rs.159 ");
+  
+ 
+  scanf("%d",& choice);
+  
+  switch(choice)
+  {
+    case 1:
+      printf("Your food item is Burger\n price Rs.129. ");
+    break;
+    case 2:
+      printf("Your food item is French fries\n price Rs.99.");
+    break;
+    case 3:
+      printf("Your food item is Pizza\n price Rs.239. ");
+     break;
+    case 4:
+      printf("Your food item is Sandwich\n price Rs.149. ");
+    break;
+    case 5:
+      printf("Your food item is Pasta\n price Rs.179. ");
+    break;
+    default:
+      printf("Your food item is not found");
+    
+   }
+}
+Output 
+Food item:
+1. Burger,Rs.129
+2. French fries,Rs.99
+3. Pizza,Rs.239
+4. Sandwhich,Rs.149
+5. Pasta,Rs.159 4
+Your food item is Sandwhich
+  price Rs.149
